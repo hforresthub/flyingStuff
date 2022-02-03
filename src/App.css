@@ -1,0 +1,23 @@
+Canvas, body, .App, html {
+	width: 100%;
+	height: 90%;
+}
+Canvas, .canvasWrapper {
+	height: 80vh;
+}
+.wrapper {
+	height: 20vh;
+}
+.wrapper {
+	display: flex;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	padding: 0 2%;
+}
+@media (max-width: 600px) {
+	.wrapper p {
+		display: none;
+	}
+}
